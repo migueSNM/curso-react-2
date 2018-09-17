@@ -29,13 +29,12 @@ class App extends Component {
     render() {
 
         const productData = this.state.products;
-        //console.log(productData);
 
-         return (
+        return (
              <div className="container">
                  <Grid productData = {productData}/>
              </div>
-         );
+        );
     }
 }
 

@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 
 const Item = props => {
 
-    //console.log(props.prodData);
     const itemInfo = props.prodData;
     return(
         <div>
@@ -16,8 +15,7 @@ const Item = props => {
 
 const Grid = props => {
 
-    //console.log(props.productData);
-     const rows = props.productData.map((row, index) => {
+    const rows = props.productData.map((row, index) => {
         return(
             <div key={index}>
                 <Item prodData={row}/>
